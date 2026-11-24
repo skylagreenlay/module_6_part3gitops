@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/skylagreenlay/module_6_part3-backend:3b855198bbf4e9fade837d2dcbc6f12aa0e55d11
+          image: ghcr.io/skylagreenlay/module_6_part3-backend:b1e97443aea3535bc372164d306f0fd0ff6fdf85
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
